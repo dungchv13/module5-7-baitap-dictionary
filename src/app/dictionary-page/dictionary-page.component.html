@@ -1,0 +1,18 @@
+<p>dictionary-page works!</p>
+
+<div class="container">
+  <div *ngFor="let w of listWords">
+
+      <h3 (click)="click(w.key)">{{w.key}}</h3>
+
+  </div>
+
+
+
+
+  <router-outlet></router-outlet>
+</div>
+
+
+
+
